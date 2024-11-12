@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
         <nav>
@@ -15,6 +17,7 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#Resume">Resume</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -27,11 +30,13 @@
 
     <section id="about">
         <h2>About Me</h2>
-        <p>I am a B.Tech graduate in Civil Engineering, now focused on a career in software development. I've gained skills in HTML, CSS, JavaScript, Python, and MySQL, and I’m eager to grow in full-stack development.</p>
+        <p>I am a B.Tech graduate in Civil Engineering, now focused on a career in software development. I've gained
+            skills in HTML, CSS, JavaScript, Python, and MySQL, and I’m eager to grow in full-stack development.</p>
     </section>
 
     <section id="skills">
         <h2>Skills</h2>
+
         <div class="skill">
             <p>HTML</p>
             <div class="progress-bar"><span style="width: 90%"></span></div>
@@ -40,27 +45,57 @@
             <p>CSS</p>
             <div class="progress-bar"><span style="width: 80%"></span></div>
         </div>
-        <!-- Add more skills as needed -->
+        <div class="skill">
+            <p>JavaScript</p>
+            <div class="progress-bar"><span style="width: 80%"></span></div>
+        </div>
+        <div class="skill">
+            <p>MySQL</p>
+            <div class="progress-bar"><span style="width: 80%"></span></div>
+        </div>
+        <div class="skill">
+            <p>Bootstrap</p>
+            <div class="progress-bar"><span style="width: 80%"></span></div>
+        </div>
+        <div class="skill">
+            <p>Reactjs</p>
+            <div class="progress-bar"><span style="width: 80%"></span></div>
+        </div>
+
+
     </section>
 
     <section id="projects">
-        <h2>Projects</h2>
+        <h2 id="c">Projects</h2>
         <div class="project-card">
             <h3>Portfolio Website</h3>
             <p>A responsive and interactive website to showcase my skills and projects.</p>
             <a href="https://github.com/yourusername/project-link" target="_blank">View Project</a>
         </div>
     </section>
-
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form>
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
+    <section id="Resume" class="section">
+        <h2>My Resume</h2>
+        
+        <p>If you prefer, <a href="project/A,SUMANRAJ_RESUME.pdf" download>download the resume here</a>.</p>
     </section>
+
+
+    <section id="contact" class="section">
+        <h2 id="b">Contact Me</h2>
+        <div class="contact-info">
+            <a href="mailto:sumansurya003@gmail.com" target="_blank" class="contact-link">
+                <img src="project/gmail-icon.png.png" alt="Gmail" class="contact-icon"> sumansurya003@gmail.com
+            </a>
+            <a href="https://www.linkedin.com/in/sumanraj-a-894466201" target="_blank" class="contact-link">
+                <img src="project/linkedin-icon.png.png" alt="LinkedIn" class="contact-icon"> LinkedIn Profile
+            </a>
+            <a href="tel:+91 8072770342" class="contact-link">
+                <img src="project/icons8-phone-50.png" alt="Phone" class="contact-icon"> +91 8072770342
+            </a>
+        </div>
+    </section>
+    
+
 
     <footer>
         <p>&copy; A.SUMANRAJ 2024</p>
@@ -69,4 +104,5 @@
     <button id="backToTop" onclick="scrollToTop()">⬆️</button>
     <script src="app.js"></script>
 </body>
+
 </html>
