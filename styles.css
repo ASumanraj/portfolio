@@ -31,7 +31,7 @@ header nav ul li a {
 
 
 #home {
-    background-image: URL('https://asumanraj.github.io/portfolio/../project/IMG_0187.jpg');
+    background-image: URL('/portfolio/../project/IMG_0187.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
