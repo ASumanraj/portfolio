@@ -1,4 +1,4 @@
-// Show Back to Top Button on Scroll
+
 window.addEventListener('scroll', () => {
     const backToTopButton = document.getElementById('backToTop');
     if (window.scrollY > 300) {
@@ -8,7 +8,6 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Scroll to Top Function
 function scrollToTop() {
     window.scrollTo({
         top: 0,
